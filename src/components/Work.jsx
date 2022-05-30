@@ -1,6 +1,6 @@
 import React from 'react';
-import WorkImg from '../assets/workImg.jpeg';
-import realEstate from '../assets/realestate.jpg';
+import bachelor from '../assets/bachelor.PNG';
+import accessibility from '../assets/accessibility.JPG';
 
 const Work = () => {
   return (
@@ -18,7 +18,7 @@ const Work = () => {
 
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${bachelor})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -41,7 +41,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${accessibility})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -65,7 +65,7 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${bachelor})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
