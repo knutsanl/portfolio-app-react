@@ -40,7 +40,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to='contact' smooth={true} duration={500}>
-            Contact
+            About the Portfolio
           </Link>
         </li>
       </ul>
