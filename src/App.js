@@ -6,6 +6,8 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 
 
+
+
 function App() {
   return (
     <div>
@@ -14,7 +16,7 @@ function App() {
       <About />
       <Skills />
       <Work />
-      <Contact />
+      <Contact/>
     </div>
   );
 }

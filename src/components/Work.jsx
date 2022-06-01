@@ -1,6 +1,7 @@
 import React from 'react';
 import bachelor from '../assets/bachelor.PNG';
 import accessibility from '../assets/accessibility.JPG';
+import webprosjekt from '../assets/webprosjekt.JPG';
 
 const Work = () => {
   return (
@@ -27,16 +28,19 @@ const Work = () => {
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://folk.ntnu.no/knutsanl/project/'>
+                <a href='https://ghk-test.herokuapp.com/' target='_blank' rel='noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+              
+              <a href='https://folk.ntnu.no/knutsanl/bachelor/bgBachelor.html' target='_blank' rel='noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Info
                   </button>
-                </a>
+                
+               </a>
+              
               </div>
             </div>
           </div>
@@ -50,12 +54,12 @@ const Work = () => {
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://ghk-test.herokuapp.com/'>
+                <a href='https://folk.ntnu.no/knutsanl/project/' target='_blank' rel='noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://folk.ntnu.no/knutsanl/accessibility/bgAccessibility.html'  target='_blank' rel='noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Info
                   </button>
@@ -65,7 +69,7 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${bachelor})` }}
+            style={{ backgroundImage: `url(${webprosjekt})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -74,7 +78,7 @@ const Work = () => {
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://melodic-lily-9a12d6.netlify.app/' target='_blank' rel='noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
